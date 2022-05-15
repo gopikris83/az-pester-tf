@@ -1,5 +1,5 @@
 resource "random_id" "id" {
-	  byte_length = 8
+  byte_length = 8
 }
 resource "azurerm_resource_group" "testStorageRG" {
   name     = "${random_id.id.hex}-policy"

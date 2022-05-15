@@ -1,13 +1,13 @@
 variable "policy_folder" {
-  type = string
+  type    = string
   default = "./policies/"
 }
 
 variable "name_space" {
-  type = string
+  type    = string
   default = "articlePost"
 }
 variable "location" {
-  type = string
+  type    = string
   default = "WestEurope"
 }
